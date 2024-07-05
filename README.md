@@ -30,22 +30,22 @@ A Convolutional Neural Network (CNN) was chosen for this image classification ta
 *	The chosen CNN architecture will generalize well to new, unseen images.
 ### 9. Model Evaluation and Techniques
 *	Model Architecture:
--	Convolutional layers with ReLU activation and BatchNormalization.
--	MaxPooling layers to reduce spatial dimensions.
--	Flatten layer to convert 2D outputs to 1D.
--	Dense layers with Dropout for regularization.
--	Output layer with sigmoid activation for binary classification.
+  -	Convolutional layers with ReLU activation and BatchNormalization.
+  -	MaxPooling layers to reduce spatial dimensions.
+  -	Flatten layer to convert 2D outputs to 1D.
+  -	Dense layers with Dropout for regularization.
+  -	Output layer with sigmoid activation for binary classification.
 *	Compilation:
--	Optimizer: Adam
--	Loss Function: Binary Crossentropy
--	Metrics: Accuracy
+  -	Optimizer: Adam
+  -	Loss Function: Binary Crossentropy
+  -	Metrics: Accuracy
 *	Training and Validation:
--	The model was trained using an 80-20 split for training and validation datasets.
+  -	The model was trained using an 80-20 split for training and validation datasets.
 *	Evaluation Metrics:
--	Accuracy
--	Precision
--	Recall
--	F1-score
+  -	Accuracy
+  -	Precision
+  -	Recall
+  -	F1-score
 ### 10. Inferences from the Same
 *	The CNN model successfully learned to distinguish between images of dogs and cats.
 *	Training accuracy improved consistently, indicating effective learning.
